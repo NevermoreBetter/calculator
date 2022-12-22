@@ -229,9 +229,3 @@ deleteButton.addEventListener("click", () => {
 style1.addEventListener("change", changeStyle);
 style2.addEventListener("change", changeStyle);
 style3.addEventListener("change", changeStyle);
-slider.addEventListener("click", () => {
-  style1.removeAttribute("checked");
-  console.log("rwerw  ");
-  style3.setAttribute("checked", "");
-  changeStyle;
-});
